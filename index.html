@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ifra's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/f8a9ff872a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+   
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav>
+      <label class="logo"><span style="color: #fcc419;">&#60;</span> Ifra </h3><span style="color: #fcc419;">&#47;&#62;</span></label>
+      <ul id="mainMenu">
+        <li><a href="#">Home</a></li>
+        <!-- <li><a href="#container3">About Me</a></li> -->
+        <li><a href="#container4">My Skills</a></li>
+        <!-- <li><a href="#container5">Internship</a></li> -->
+        <li><a href="#portfolio">My Projects</a></li>
+      </ul>
+      <label id="icon">
+        <i class="fa-solid fa-bars" onclick="menuToggle()"></i>
+      </label>
+    </nav>
+    <!-- #container1 -->
+    <section id="container1">
+      <div id="left">
+        <p>I'm  <br><span>Ifra Shamim</span></p>
+        <h1 id="line"></h1>
+          <p id="self-intro">Highly motivated computer science student with a passion
+              for frontend development, equipped with a solid foundation
+              in programming languages and web technologies. Seeking
+              an opportunity to contribute and grow as a frontend
+              developer, utilizing my creativity and technical skills to
+              deliver visually appealing and user-friendly web
+              applications.
+          </p>
+          <div class="btn">
+            <a href="./Ifra Shamim.pdf.pdf" id="cv-btn" download target="_blank">Download CV</a>
+        </div>
+      </div>
+      <div id="circle">
+        <img src="./images/girl.png" alt="">
+      </div>
+    </section>
+    <!-- #container2 -->
+    <section id="container2">
+     <div class="social">
+        <div class="images">
+            <a href="https://www.linkedin.com/in/ifra-shamim-ab5b62263/" target="_blank">Linkedin</a>
+        </div>
+        <div class="images">
+            <a href="https://www.fiverr.com/ifra_shamim?up_rollout=true" target="_blank">
+                Fiverr</a>
+        </div>
+        <div class="images">
+            <a href="https://github.com/IfraShamim" target="_blank">
+                Github</a>
+        </div>
+        <div class="images">
+          <a href="https://www.facebook.com/ifra.shamim.54" target="_blank">
+              Facebook</a>
+      </div>
+    </div> 
+    </section>
+    <!-- #container4 -->
+    <section id="container4">
+      <h3>My <span>Skills</span></h3>
+      <p id="para">Here is my skills to represent my expertise.</p>
+      <div class="skill-main">
+        <div class="skill-bar">
+          <div class="info">
+            <p>HTML</p>
+            <p>90%</p>
+          </div>
+          <div class="bar">
+            <span class="html"></span>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <div class="info">
+            <p>CSS</p>
+            <p>70%</p>
+          </div>
+          <div class="bar">
+            <span class="css"></span>
+          </div>
+        </div>
+        <div class="skill-bar">
+          <div class="info">
+            <p>JavaScript</p>
+            <p>78%</p>
+          </div>
+          <div class="bar">
+            <span class="js"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+  <section class="section-3" id="portfolio">
+    <h3 class="section-names">Latest <span>Projects</span></h3>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="./images/image1.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Interest Calculator</h4>
+                <a href="https://ifrashamim.github.io/simpleInterestCalculator/" target="_blank"><img class="ext-link"
+                        src="./image1.png" alt=""></a>
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <img src="./images/image2.png" alt="">
+            <div class="portfolio-layer">
+                <h4>CRUD Operations</h4>
+                <a href="https://ifrashamim.github.io/crudOperationsWithFirebase/" target="_blank"><img class="ext-link"
+                        src="./image2.png" alt=""></a>
+            </div>
+        </div>
+        <div class="portfolio-box">
+            <img src="./images/img3.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Quiz App</h4>
+                <a href="https://ifrashamim.github.io/simplerQuizApp/" target="_blank"><img
+                        class="ext-link" src="./img3.png" alt=""></a>
+            </div>
+        </div>
+        <div class="portfolio-box" id="card4">
+            <img src="./images/img4.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Attendance Portal</h4>
+                <a href="https://ifrashamim.github.io/attendancePortal/" target="_blank"><img
+                        class="ext-link" src="./img4.png" alt=""></a>
+            </div>
+        </div>
+        <div class="portfolio-box" id="card5">
+            <img src="./images/img5.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Temperature Converter</h4>
+                <a href="https://ifrashamim.github.io/temperatureConverter/" target="_blank"><img class="ext-link"
+                        src="./img5.png" alt=""></a>
+            </div>
+        </div>
+        <div class="portfolio-box" id="card6">
+            <img src="./images/img6.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Dynamic Calendar</h4>
+                <a href="https://ifrashamim.github.io/dynamicCalendar/" target="_blank"><img
+                        class="ext-link" src="./img6.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</section> 
+<footer>
+  Thanks for visiting! Regards Ifra Shamim
+</footer>
+    <script src="./script.js"></script>
+  </body>
+</html>

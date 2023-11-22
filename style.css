@@ -1,0 +1,970 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;500;600;700;800;900");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Catamaran", sans-serif;
+  text-decoration: none;
+}
+
+html {
+  max-width: 120rem;
+  width: 100%;
+  overflow-x: hidden !important;
+  font-size: 0.9vw;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden !important;
+  background-color: rgb(68, 74, 90);
+}
+/* navbar */
+nav {
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  height: 5rem;
+  background-color: rgb(68, 74, 90);
+  box-shadow: rgba(18, 19, 20, 0.1) 0rem 0.438rem 1.813rem 0rem;
+}
+label.logo {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 5rem;
+  padding-left: 6.25rem;
+  color: whitesmoke;
+}
+nav ul {
+  float: right;
+  margin-right: 3.5rem;
+}
+nav li {
+  display: inline-block;
+  margin: 0 1.5rem;
+  line-height: 5rem;
+}
+nav a {
+  color: #9b9da3;
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+}
+nav ul li a:hover {
+  color: aliceblue;
+}
+nav #icon {
+  color: white;
+  font-size: 1.875rem;
+  line-height: 5rem;
+  float: right;
+  margin-right: 2.5rem;
+  cursor: pointer;
+  display: none;
+}
+nav #icon .active {
+  display: block;
+}
+/* #container1 */
+#container1 {
+  width: 100%;
+  height: 44rem;
+  display: flex;
+  background-color: rgb(68, 74, 90);
+}
+#container1 #left {
+  width: 30%;
+  padding-top: 6rem;
+  padding-left: 6.25rem;
+}
+#container1 #left p {
+  font-size: 5rem;
+  color: #9b9da3;
+}
+#container1 #left #self-intro {
+  width: 40rem;
+  position: absolute;
+  font-size: 1.5rem;
+}
+#container1 #left #cv-btn {
+  padding: 0.313rem 1.25rem;
+  box-shadow: rgba(252, 196, 25, 0.6) 0px 4px 8px;
+  cursor: pointer;
+  background-color: #fcc419;
+  color: #383c4a;
+  font-size: 1.5rem;
+  font-weight: 900;
+  word-spacing: 0.25rem;
+  text-align: center;
+  border-radius: 1.25rem;
+  position: absolute;
+  top: 44rem;
+}
+#container1 #circle {
+  width: 42.625rem;
+  height: 42.625rem;
+  border-radius: 50%;
+  box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+  background: #383c4a;
+}
+#container1 #circle img{
+  width: 40rem;
+  height: 50rem;
+  margin-left: 2rem; 
+}
+#container1 #left span {
+  font-size: 7.3rem;
+  position: absolute;
+  top: 16rem;
+  color: whitesmoke;
+  font-weight: bold;
+}
+#container1 #left #line {
+  height: 0.313rem;
+  width: 18.875rem;
+  background-color: #fcc419;
+  border-radius: 2px;
+  margin-top: 7rem;
+  margin-bottom: 1.2rem;
+}
+#container1 #right {
+  width: 60%;
+}
+/* #container2 */
+.social {
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 90%;
+  padding: 0.938rem 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: absolute;
+  top: 48rem;
+  left: 6rem;
+  background-color: #444a5a;
+}
+
+.social div {
+  height: 3.75rem;
+  width: 12.5rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: aliceblue;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0rem 0.313rem 0.938rem;
+  background-color: #383c4a;
+}
+
+.social .images a {
+  display: inline-block;
+  color: aliceblue;
+  margin-top: 0.313rem;
+}
+/* #container3 */
+#container3 {
+  width: 100%;
+  height: 45rem;
+  background-color: #383c4a;
+}
+#container3 h3 {
+  text-align: center;
+  padding-top: 8rem;
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  color: white;
+}
+#container3 h3 span {
+  color: #fcc419;
+}
+#container3 .text {
+  position: relative;
+}
+#container3 p {
+  color: #9b9da3;
+  font-size: 4rem;
+  padding-left: 6.25rem;
+}
+#container3 #para {
+  font-size: 1.5rem;
+  margin-top: 6rem;
+  width: 90%;
+  text-align: center;
+}
+#container3 #developer {
+  position: absolute;
+  top: 68rem;
+  font-size: 3.8rem;
+  color: #fcc419;
+}
+#container3 #developer span {
+  color: whitesmoke;
+}
+#container3 #main h4 {
+  margin-top: 1rem;
+  color: #fcc419;
+  font-size: 1.9rem;
+}
+#container3 #main1 h4 {
+  width: 105%;
+}
+#container3 #p {
+  margin-top: 1rem;
+  width: 85%;
+  font-size: 1.3rem;
+}
+/* #container4 */
+#container4{
+ width: 100%;
+  height: 48rem;
+  background-color: #383c4a;
+  padding-top: 8rem;
+}
+#container4 h3 {
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  color: white;
+}
+#container4 h3 span {
+  color: #fcc419;
+}
+#container4 #para {
+  font-size: 2rem;
+  color: #9b9da3;
+  margin-top: 0.5rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+#container4 .skill-main{
+  width: 60%;
+  margin: auto;
+  margin-top: 2rem;
+}
+#container4 .skill-main .skill-bar .info{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.625rem;
+  font-size: 2.7rem;
+  color: aliceblue;
+}
+#container4 .skill-main .skill-bar .bar{
+  width: 100%;
+  height: 0.625rem;
+  background-color: whitesmoke;
+  border-radius: 1.563rem;
+  margin-top: 0.313rem;
+  position: relative;
+  margin-bottom: 2rem;
+}
+#container4 .skill-main .skill-bar .bar span{
+  width: 50%;
+  height: 0.625rem;
+  position: absolute;
+  background-color: #fcc419;
+  border-radius: 1.563rem;
+}
+#container4 .skill-main .skill-bar .bar .html{
+  width: 90%;
+  animation: html 3s;
+}
+@keyframes html{
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 90%;
+  }
+}
+#container4 .skill-main .skill-bar .bar .css{
+  width: 70%;
+  animation: css 3s;
+}
+@keyframes css{
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 70%;
+  }
+}
+#container4 .skill-main .skill-bar .bar .js{
+  width: 78%;
+  animation: js 3s;
+}
+@keyframes js{
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 78%;
+  }
+}
+/* #container5 */
+#container5{
+  width: 100%;
+   height: 30rem;
+ }
+ #container5 h3 {
+   text-align: center;
+   padding-top: 2rem;
+   font-size: 3.5rem;
+   text-transform: capitalize;
+   color: white;
+ }
+ #container5 h3 span {
+   color: #fcc419;
+ }
+ .swiper {
+  width: 50%;
+  height: 20rem;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img{
+  margin-bottom: 4rem;
+  width: 15%;
+  margin: auto;
+  margin-top: 4rem;
+}
+.swiper-slide a{
+  color: whitesmoke;
+  font-size: 2.3rem;
+}
+.swiper-slide a:hover{
+  background-color: whitesmoke;
+  border-radius: 2rem;
+  color: #fcc419;
+  padding: 0.5rem 1rem;
+  transform: scale(1.1);
+}
+.section-3 {
+ height: 50rem;
+  width: 100%;
+  background-color: #444a5a;
+  padding: 1.25rem 0 0rem 0;
+
+}
+.section-3 h3{
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 3.5rem;
+  text-transform: capitalize;
+  color: white;
+}
+.section-3 h3 span {
+  color: #fcc419;
+}
+.portfolio-container {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 0.625rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  gap: 2.5rem;
+
+}
+
+.portfolio-box {
+  position: relative;
+  border-radius: 2rem;
+  box-shadow: 0 0 #1f242d;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-box img {
+  height: 14.5rem;
+}
+
+.portfolio-box .portfolio-layer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(111, 132, 172, 0.4), rgb(121, 117, 117));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 3rem;
+  transform: translateY(100%);
+  transition: .5s ease;
+}
+
+.portfolio-box:hover .portfolio-layer {
+  transform: translateY(0);
+}
+
+.portfolio-layer .ext-link {
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+.portfolio-layer h4 {
+  color: aliceblue;
+  font-size: 1.1rem;
+}
+
+.portfolio-layer a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  background: #fff;
+  border-radius: 50%;
+}
+footer{
+  background-color: #1f242d;
+  height: 6rem;
+  margin-top: 5rem;
+  font-size: 2.5rem;
+  padding-top: 1rem;
+  text-align: center;
+  color: #9b9da3;
+}
+@media(max-width:600px){
+.section-3{
+  height: max-content;
+  padding: 20px 0 20px 0;
+}
+  .portfolio-container {
+      grid-template-columns: repeat(1, 1fr);
+
+  }
+}
+@media (max-width: 1048px) {
+  /* navbar */
+  nav {
+    height: 10rem;
+  }
+  label.logo {
+    font-size: 6.9rem;
+    padding-left: 3.75rem;
+    line-height: 10rem;
+  }
+  nav ul {
+    margin-right: 1.25rem;
+  }
+  nav a {
+    font-size: 3.063rem;
+    line-height: 10rem;
+  }
+  /* #container1 */
+  #container1 {
+    height: 65rem;
+  }
+  #container1 #left p {
+    font-size: 7rem;
+  }
+  #container1 #left span {
+    font-size: 8.3rem;
+    top: 23.2rem;
+  }
+  #container1 #circle {
+    width: 62.625rem;
+    height: 62.625rem;
+  }
+  #container1 #circle img{
+    width: 45rem;
+    height: 50rem;
+    margin-left: 14rem;
+    margin-top: 15rem; 
+  }
+  #container1 #left #self-intro {
+    width: 46rem;
+    font-size: 2.2rem;
+  }
+  #container1 #left #cv-btn {
+    font-size: 2.5rem;
+    top: 66rem;
+  }
+  /* #container2 */
+  .social {
+    height: 16rem;
+    top: 73rem;
+  }
+
+  .social div {
+    height: 5.75rem;
+    width: 20.5rem;
+    font-size: 3.5rem;
+  }
+  /* #container3 */
+  #container3 {
+    height: 65rem;
+  }
+  #container3 h3 {
+    margin-top: 10rem;
+    font-size: 5rem;
+  }
+  #container3 p {
+    font-size: 6rem;
+  }
+  #container3 #para {
+    font-size: 2.5rem;
+    margin-top: 6rem;
+    width: 90%;
+  }
+  #container3 #developer {
+    top: 109rem;
+    font-size: 5.8rem;
+  }
+  #container3 #main #main1 {
+    width: 30%;
+    height: 13rem;
+  }
+  #container3 #main #main2 {
+    width: 30%;
+    height: 13rem;
+  }
+  #container3 #main h4 {
+    font-size: 2.5rem;
+  }
+  #container3 #p {
+    font-size: 1.7rem;
+  }
+  /* #container4 */
+  #container4 {
+    height: 65rem;
+  }
+  #container4 h3 {
+    font-size: 5rem;
+    margin-top: 10rem;
+  }
+  #container4 #para {
+    font-size: 3rem;
+  }
+  /* #container5 */
+  #container5{
+    height: 32rem;
+  }
+  #container5 h3 {
+    font-size: 5rem;
+  }
+  .swiper-slide a{
+    font-size: 2.6rem;
+  }
+  .section-3 h3{
+    font-size: 5rem;
+}
+@media (max-width: 909px) {
+  /* navbar */
+  nav {
+    height: 12rem;
+  }
+  label.logo {
+    font-size: 7.9rem;
+    padding-left: 3.75rem;
+    line-height: 13rem;
+  }
+  nav #icon {
+    display: block;
+    font-size: 7rem;
+    line-height: 13rem;
+    padding-right: 1rem;
+    color: #fcc419;
+  }
+  nav ul {
+    position: fixed;
+    width: 100%;
+    height: 64.375rem;
+    background: rgb(68, 74, 90);
+    top: 11rem;
+    left: -120rem;
+    text-align: center;
+    transition: left 0.3s;
+  }
+  nav li {
+    display: block;
+    margin: 3.125rem 0;
+    line-height: 1.875rem;
+  }
+  nav a {
+    font-size: 3.25rem;
+  }
+  /* #container1 */
+  #container1 {
+    height: 155rem;
+    display: block;
+  }
+  #container1 #left {
+    width: 100%;
+    height: 85rem;
+  }
+  #container1 #left p {
+    font-size: 9.5rem;
+  }
+  #container1 #left span {
+    font-size: 14.3rem;
+    top: 26.2rem;
+  }
+  #container1 #left #self-intro {
+    width: 78rem;
+    font-size: 3.2rem;
+  }
+  #container1 #circle img{
+    width: 65rem;
+    height: 70rem;
+    margin-left: 4rem;
+    margin-top: 5rem; 
+  }
+  #container1 #left #cv-btn {
+    font-size: 3.5rem;
+    top: 87rem;
+  }
+  #container1 #left #line {
+    height: 0.5rem;
+    width: 38.875rem;
+    margin-top: 12rem;
+  }
+  #container1 #circle {
+    width: 68.625rem;
+    height: 68.625rem;
+    margin-left: 20rem;
+  }
+  /* #container2 */
+  .social {
+    height: 35rem;
+    top: 163rem;
+  }
+
+  .social div {
+    height: 9.75rem;
+    width: 27.5rem;
+    font-size: 5.5rem;
+  }
+  /* #container3 */
+  #container3 {
+    height: 115rem;
+  }
+  #container3 h3 {
+    margin-top: 27rem;
+    font-size: 8rem;
+  }
+  #container3 p {
+    font-size: 8.9rem;
+  }
+  #container3 #para {
+    font-size: 4.5rem;
+    margin-top: 12rem;
+    width: 90%;
+  }
+  #container3 #developer {
+    top: 227rem;
+    font-size: 8.8rem;
+  }
+  #container3 #main #main1 {
+    width: 32%;
+    height: 15rem;
+  }
+  #container3 #main #main2 {
+    width: 32%;
+    height: 15rem;
+  }
+  #container3 #main h4 {
+    font-size: 3rem;
+  }
+  #container3 #p {
+    font-size: 2rem;
+  }
+  /* #container4 */
+  #container4{
+    height: 55rem;
+  }
+  #container4 h3 {
+    font-size: 8rem;
+  }
+  #container3 #para {
+    font-size: 4.9rem;
+  }
+  #container4{
+    height: 70rem;
+    margin-top: 17rem;
+  }
+  #container4 .skill-main .skill-bar .info{
+    font-size: 3.7rem;
+  }
+    /* #container5 */
+    #container5{
+      height: 42rem;
+    }
+    #container5 h3 {
+      font-size: 8rem;
+    }
+    .swiper{
+      height: 24rem;
+    }
+    .swiper-slide img{
+      width: 12rem;
+    }
+    .swiper-slide a{
+      font-size: 3.6rem;
+    }
+    .section-3 h3{
+      font-size: 8rem;
+  }
+}
+@media (max-width: 645px) {
+  nav {
+    height: 18rem;
+  }
+  label.logo {
+    font-size: 12rem;
+    padding-left: 3.75rem;
+    line-height: 20rem;
+  }
+  nav #icon {
+    font-size: 10rem;
+    line-height: 20rem;
+    padding-right: 1rem;
+  }
+  nav ul {
+    height: 83.875rem;
+    top: 17rem;
+  }
+  nav li {
+    display: block;
+    margin: 6.125rem 0;
+    line-height: 1.875rem;
+  }
+  nav a {
+    font-size: 5.25rem;
+  }
+  /* #container1 */
+  #container1 {
+    height: 206rem;
+  }
+  #container1 #left {
+    width: 100%;
+    height: 115rem;
+  }
+  #container1 #left p {
+    font-size: 11.5rem;
+  }
+  #container1 #left span {
+    font-size: 16.3rem;
+    top: 37.2rem;
+  }
+  #container1 #left #self-intro {
+    width: 88rem;
+    font-size: 4.2rem;
+  }
+  #container1 #circle img{
+    width: 67rem;
+    height: 73rem;
+    margin-left: 10rem;
+    margin-top: 5rem; 
+  }
+  #container1 #left #cv-btn {
+    font-size: 4.5rem;
+    top: 120rem;
+  }
+  #container1 #left #line {
+    height: 0.7rem;
+    width: 48.875rem;
+    margin-top: 16rem;
+  }
+  #container1 #circle {
+    width: 88.625rem;
+    height: 88.625rem;
+    margin-left: 10rem;
+  }
+  /* #container2 */
+  .social {
+    height: 48rem;
+    top: 210rem;
+  }
+
+  .social div {
+    height: 12.75rem;
+    width: 32.5rem;
+    font-size: 7.5rem;
+    margin-right: 2rem;
+  }
+  /* #container3 */
+  #container3 {
+    height: 120rem;
+  }
+  #container3 h3{
+    font-size: 10rem;
+  }
+  #container3 #developer {
+    top: 285rem;
+    font-size: 8.8rem;
+  }
+  #container3 #main #main1 {
+    width: 37%;
+    height: 17rem;
+  }
+  #container3 #main #main2 {
+    width: 37%;
+    height: 17rem;
+  }
+  #container3 #main h4 {
+    font-size: 3.7rem;
+  }
+  #container3 #p {
+    font-size: 2.4rem;
+  }
+  /* #container4 */
+  #container4{
+    height: 80rem;
+  }
+  #container4 h3{
+    font-size: 10rem;
+  }
+  #container4 .skill-main{
+    width: 80%;
+  }
+  #container4 .skill-main .skill-bar .info{
+    font-size: 4.4rem;
+  }
+  #container4 .skill-main .skill-bar .bar{
+    width: 100%;
+    height: 1.2rem;
+}
+#container4 .skill-main .skill-bar .bar span{
+  height: 1.2rem;
+}
+/* #container5 */
+#container5{
+  height: 50rem;
+}
+#container5 h3 {
+  font-size: 10rem;
+}
+.swiper{
+  height: 28rem;
+}
+.swiper-slide img{
+  width: 15rem;
+}
+.swiper-slide a{
+  font-size: 4rem;
+}
+.section-3 h3{
+  font-size: 10rem;
+}
+.portfolio-box img {
+  width: 94.6rem;
+  height: 44.5rem;
+}
+}
+@media (max-width: 541px) {
+  nav {
+    height: 20rem;
+  }
+  label.logo {
+    font-size: 13rem;
+    padding-left: 3.75rem;
+    line-height: 22rem;
+  }
+  nav #icon {
+    font-size: 11rem;
+    line-height: 22rem;
+    padding-right: 1rem;
+  }
+  nav ul {
+    height: 94rem;
+    top: 19rem;
+  }
+  nav li {
+    display: block;
+    margin: 8.125rem 0;
+    line-height: 1.875rem;
+  }
+  nav a {
+    font-size: 6.25rem;
+  }
+  /* #container2 */
+  .social div {
+    width: 37.5rem;
+  }
+  /* #container3 */
+  #container3 {
+    height: 168rem;
+  }
+  #container3 #developer {
+    top: 289rem;
+    font-size: 8.8rem;
+  }
+  #container3 #main {
+    display: block;
+  }
+  #container3 #main #main1 {
+    width: 79%;
+    height: 27rem;
+    margin-bottom: 8rem;
+  }
+  #container3 #main #main2 {
+    width: 79%;
+    height: 27rem;
+  }
+  #container3 #main h4 {
+    width: 95%;
+    font-size: 5.4rem;
+  }
+  #container3 #p {
+    font-size: 4.3rem;
+  }
+  /* #container4 */
+  #container4{
+    height: 105rem;
+  }
+  #container4 #para{
+    font-size: 4.5rem;
+  }
+  #container4 .skill-main{
+    width: 80%;
+  }
+  #container4 .skill-main .skill-bar .info{
+    font-size: 8.4rem;
+  }
+  #container4 .skill-main .skill-bar .bar{
+    width: 100%;
+    height: 1.2rem;
+}
+#container4 .skill-main .skill-bar .bar span{
+  height: 1.2rem;
+}
+/* #container5 */
+#container5{
+  height: 50rem;
+}
+#container5 h3 {
+  font-size: 8rem;
+}
+.swiper{
+  height: 32rem;
+}
+.swiper-slide img{
+  width: 18rem;
+}
+.swiper-slide a{
+  font-size: 4.6rem;
+}
+}
+/* footer */
+footer{
+  font-size: 4.5rem;
+  height: 10rem;
+}
+}
